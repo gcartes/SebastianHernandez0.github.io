@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+hr{
+    height: 1px;
+    background-color: black;
+    border: none;
+    
+}
+
+
+
+#header{
+    text-align: center;
+}
+#header img{
+    width: 150px;
+    margin: 20px;
+}
+
+#datos,#educacion,#idiomas,#intereses{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul li{
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    width: 100%;
+    justify-content: center;
+
+    
+}
+
+#footer a{
+    color: black;
+    margin: 0px 50px 0px 70px;
+    text-decoration: none;
+    width: 85px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+}
+
+#footer a:visited{
+    text-decoration: none;
+    
+    
+}

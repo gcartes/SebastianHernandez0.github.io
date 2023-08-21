@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color: rgb(2, 12, 31);
+}
+
+.bg-nav{
+    background-color: rgb(1, 8, 20);
+    border: 1px solid rgb(28, 36, 51);
+}
+
+.ini{
+    margin-top: 130px;
+    text-align: center;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;
+    
+}
+
+.ini img{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 7px solid white;
+    align-self: flex-start;
+}
+
+.text-ini{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.text-ini h1{
+    margin-bottom: 30px;
+    
+    
+}
+
+.text-ini a{ 
+    padding: 7px;
+    color: white;
+    width: 102px;
+    height: 81px;
+    
+    align-self: center;
+    
+    
+}
+.text-ini a:hover{
+    background-color: rgb(1, 7, 19) ;
+    border: 3px solid rgb(1, 12, 22);
+    border-radius:10px;
+    
+    
+}
+main{
+    
+    width: 1280px;
+    
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rem;
+
+}
+main .expe{
+    padding-top: 40px;
+}
+main .proyectos{
+    padding-top: 200px;
+}
+
+
+ul{
+    list-style: inside;
+}
+
+.proyectos img{
+    width: 18rem;
+    height: 18rem;
+}
+
+.proyectos a:hover{
+    background-color: rgb(45, 117, 184);
+    border-radius: 5px;
+    
+    
+}
+
+
+.card{
+    background-color: rgb(2, 12, 31);;
+}
+
+hr{
+    color: white;
+    border: 2px solid white;
+    width: 65%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 115px;
+    border: 1px solid black;
+    align-items: center;
+    background-color: rgb(1, 12, 22);
+}
+
+footer h2{
+    color: white;
+    padding-top: 5px;
+}
+
+.icon{
+    padding-top:15px;
+}
+
+.icon a{
+    color: white;
+}
+
+.icon a:hover{
+    color: aqua;
+}
+
+.nam3{
+    position: relative;
+    right: 300px;
+}
+
+#edu,#expe{
+    padding-top: 100px;
+    
+}
